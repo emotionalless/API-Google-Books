@@ -1,0 +1,132 @@
+@media (max-width: 1400px) {
+
+    .main__slider__promo-change-book {
+        display: none;
+    }
+    
+    .main__slider__promo-top-100 {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 1300px) {
+
+.main__categories {
+    max-width: 250px;
+    padding: 45px 30px 61px 40px;
+}
+
+#main__books-cards__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0px, 0);
+}
+
+.main__books-cards__wrap__book {
+    margin-bottom: 30px;
+}
+
+}
+
+@media (max-width: 700px) {
+
+.main__books-cards {
+    display: block;
+    max-width: 1500px;
+}
+
+.main__categories {
+    max-width: 250px;
+    padding: 45px 15px 31px 15px;
+}
+
+.main__categories__list {
+    width: 120px;
+}
+
+.main__slider {
+    margin-bottom: 30px;
+}
+
+}
+
+@media (max-width: 638px) {
+
+    .header__menu__icons_basket {
+    transform: translate(5px, -12px);
+    }
+
+}
+
+@media (max-width: 590px) {
+
+.main__categories__list {
+    width: auto;
+    padding: 20px 30px 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    }
+
+.main__categories {
+    width: auto;
+    padding: 0;
+    width: auto;
+    max-width: 583px;
+}
+
+.main__categories__list ul li {
+    display: inline-block;
+    width: 100px;
+}
+
+.main__wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#selected-categorie {
+    font-size: 14px;
+    background:  0;
+    background-position: 0;
+    padding-left: 0;
+    transform: translate(0, 0);
+}
+}
+
+@media (max-width: 450px) {
+
+    .main__categories {
+        width: auto;
+        padding: 0;
+        width: auto;
+        max-width: auto;
+    }
+
+.main__books-cards__wrap__book {
+    flex-wrap: wrap;
+    width: 240px;
+    height: auto;
+    justify-content: center;
+}
+
+.book__img img{
+    object-fit: contain;
+}
+
+.book__info-wrap {
+    width: 240px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__books-cards__load-more {
+    margin: 0;
+    transform: translate(0, 0);
+    margin-left: auto;
+    margin-right: auto;
+}
+}
